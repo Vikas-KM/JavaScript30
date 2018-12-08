@@ -1,0 +1,5 @@
+Things learnt while solving this project
+
+1: learnt css property transform, translate, skew, scale, rotate.
+2: learnt css property box-shadow.
+3: DOM Events
