@@ -1,0 +1,4 @@
+Things learnt while solving this project
+1: transform-origin
+2: background cover
+3: transition

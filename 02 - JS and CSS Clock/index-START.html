@@ -11,7 +11,7 @@
       <div class="clock-face">
         <div class="hand hour-hand"></div>
         <div class="hand min-hand"></div>
-        <div class="hand second-hand"></div>
+        <div class="hand second-hand fast"></div>
       </div>
     </div>
 
@@ -62,13 +62,30 @@
       background: black;
       position: absolute;
       top: 50%;
+      transform-origin: 100%;
+      transform: rotate(90deg);
+      transition: all 0.05s;
+      transition-timing-function: cubic-bezier(0.1,2.7,0.58,1);
+    }
+
+    .hour-hand{
+      background-color:red;
+    }
+
+    .min-hand{
+      background-color:blue;
+    }
+
+    .second-hand{
+      background-color:green;
+    }
+
+    .fast{
+      transition: all 0s;
     }
 
   </style>
 
-  <script>
-
-
-  </script>
+  <script src="JS_CSS_Clock.js">  </script>
 </body>
 </html>
