@@ -1,0 +1,5 @@
+Things learnt
+
+1: CSS Variables
+2: DocumentElement
+3: MouseMove and Change Events
